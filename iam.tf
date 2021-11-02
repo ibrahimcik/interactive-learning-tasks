@@ -1,4 +1,4 @@
-resource "aws_iam_user" "b" {
+resource "aws_iam_user" "bob" {
   name = "bob"
   path = "/system/"
 
@@ -6,3 +6,4 @@ resource "aws_iam_user" "b" {
     tag-key = "Team=DevOps"
   }
 }
+
