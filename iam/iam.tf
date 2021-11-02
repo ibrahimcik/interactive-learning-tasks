@@ -1,7 +1,5 @@
 resource "aws_iam_user" "bob" {
   name = "bob"
-  path = "/system/"
-
   tags = {
     Team = "DevOps"
   }
